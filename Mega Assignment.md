@@ -14,7 +14,7 @@ Pros:<br>
       Python has a vast collection of libraries.<br>
       Python is free, open-source, and has a vibrant community.<br>
       Python is a portable programming language.<br>
-      Python is an interpreted, Embeddable Highly Scalable language.<br>  
+      Python is an interpreted, Embeddable Highly Scalable language.
 Cons:<br>
       Python has speed limitations & High memory consumption.<br>
       Python has issues with design.<br>
@@ -23,11 +23,11 @@ Cons:<br>
 
 Q4. In what all domains can we use Python?<br>
 Ans:  Machine learning / Artificial intelligence.<br>
-      Desktop GUI.<br>  
-      Data analytics and data visualization.<br>   
+      Desktop GUI.<br>
+      Data analytics and data visualization.<br>  
       Web development.<br>
       Game development.<br>
-      Mobile app development.<br> 
+      Mobile app development.
 
 Q5. What are variable and how can we declare them?<br>
 Ans: Python has no command for declaring a variable.
