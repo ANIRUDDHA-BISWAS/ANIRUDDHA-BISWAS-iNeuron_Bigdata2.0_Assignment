@@ -1,6 +1,6 @@
 ## Assignment Part-1
 
-Q1. Why do we call Python as a general purpose and high-level programming language?
+Q1. Why do we call Python as a general purpose and high-level programming language? <br>
 Ans: Python is one of the most popular and user-friendly programming languages out there.
 It is an object-oriented, high-level programming language. Object-oriented means this language is based around objects (such as data) rather than functions, and high-level means it's easy for humans to understand.
 
