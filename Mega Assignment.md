@@ -22,12 +22,12 @@ Cons:
       Complex multithreading.
 
 Q4. In what all domains can we use Python?  
-Ans:  Machine learning / Artificial intelligence
-      Desktop GUI
-      Data analytics and data visualization 
-      Web development
-      Game development
-      Mobile app development
+Ans:  Machine learning / Artificial intelligence. 
+      Desktop GUI  
+      Data analytics and data visualization   
+      Web development  
+      Game development  
+      Mobile app development  
 
 Q5. What are variable and how can we declare them?    
 Ans: Python has no command for declaring a variable.
