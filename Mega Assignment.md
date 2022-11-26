@@ -4,7 +4,7 @@ Q1. Why do we call Python as a general purpose and high-level programming langua
 Ans: Python is one of the most popular and user-friendly programming languages out there.
 It is an object-oriented, high-level programming language. Object-oriented means this language is based around objects (such as data) rather than functions, and high-level means it's easy for humans to understand.
 
-Q2. Why is Python called a dynamically typed language?
+Q2. Why is Python called a dynamically typed language?   
 Ans: Other languages like C, C++, Java, etc. there is a strict declaration of variables before assigning values to them but Python doesn't have any problem even if we don't declare the type of variable. It states the kind of variable in the runtime of the program. Python also takes care of the memory management which is crucial in programming. So, Python is a dynamically typed language.
 
 Q3. List some pros and cons of Python programming language?
