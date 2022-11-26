@@ -32,8 +32,7 @@ Ans:  Machine learning / Artificial intelligence
 Q5. What are variable and how can we declare them?
 Ans: Python has no command for declaring a variable.
 Thus, declaring a variable in Python is very simple.
-Just name the variable.
-Assign the required value to it.
+Just name the variable & Assign the required value to it.
 The data type of the variable will be automatically determined from the value assigned, we need not define it explicitly.
 
 Q6. How can we take an input from the user in Python?
@@ -53,12 +52,24 @@ Ans: Keywords are some predefined and reserved words in python that have special
 Example: if, elif, else, True, False etc.
 
 Q11. Can we use keywords as a variable? Support your answer with reason.
+Ans: An example of something we can’t do with Python keywords is assign something to them. If we try, then we’ll get a SyntaxError. we won’t get a SyntaxError if we try to assign something to a built-in function or type, but it still isn’t a good idea. For a more in-depth explanation of ways keywords can be misused, check out Invalid Syntax in Python: Common Reasons for SyntaxError.
 
 Q12. What is indentation? What's the use of indentaion in Python?
+Ans: Python indentation refers to adding white space before a statement to a particular block of code. In another word, all the statements with the same space to the right, belong to the same code block.
+Example of Python Indentation.
 
 Q13. How can we throw some output in Python?
+Ans:The basic way to do output is the print statement. To end the printed line with a newline, add a print statement without any objects. This will print to any object that implements write(), which includes file objects.
 
 Q14. What are operators in Python?
+Ans: In Python, operators are special symbols that designate that some sort of computation should be performed. The values that an operator acts on are called operands.
+Types of Python Operators:
+                        Arithmetic operators
+                        Assignment Operators
+                        Comparison Operators
+                        Logical Operators
+                        Bitwise Operators
+                        Special Operators
 
 Q15. What is difference between / and // operators?
 
