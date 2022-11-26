@@ -1,4 +1,4 @@
-Assignment Part-1
+## Assignment Part-1
 
 Q1. Why do we call Python as a general purpose and high-level programming language?
 Ans: Python is one of the most popular and user-friendly programming languages out there.
