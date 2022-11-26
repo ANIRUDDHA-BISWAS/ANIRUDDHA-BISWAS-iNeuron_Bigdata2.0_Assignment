@@ -72,6 +72,8 @@ Types of Python Operators:
                         Special Operators
 
 Q15. What is difference between / and // operators?
+Ans: / (Division) Divides two numbers. It provides decimal places. 
+// (Floor Division) Divides two numbers & removes the decimal place. But in case of Negative value it floors the number too far from zero.
 
 Q16. Write a code that gives following as an output.
 ```
