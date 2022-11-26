@@ -1,27 +1,27 @@
 ## Assignment Part-1
 
-Q1. Why do we call Python as a general purpose and high-level programming language? <br>
+Q1. Why do we call Python as a general purpose and high-level programming language?   
 Ans: Python is one of the most popular and user-friendly programming languages out there.
 It is an object-oriented, high-level programming language. Object-oriented means this language is based around objects (such as data) rather than functions, and high-level means it's easy for humans to understand.
 
 Q2. Why is Python called a dynamically typed language?   
 Ans: Other languages like C, C++, Java, etc. there is a strict declaration of variables before assigning values to them but Python doesn't have any problem even if we don't declare the type of variable. It states the kind of variable in the runtime of the program. Python also takes care of the memory management which is crucial in programming. So, Python is a dynamically typed language.
 
-Q3. List some pros and cons of Python programming language?
-Ans: Pros and Cons of Python Programming Language -
-Pros:
+Q3. List some pros and cons of Python programming language?  
+Ans: Pros and Cons of Python Programming Language -  
+Pros:  
       Beginner-friendly, is easy to learn and read.
       Python has a vast collection of libraries.
       Python is free, open-source, and has a vibrant community.
       Python is a portable programming language.
       Python is an interpreted, Embeddable Highly Scalable language.
-Cons:
+Cons:  
       Python has speed limitations & High memory consumption.
       Python has issues with design.
       Slower than compiled languages.
       Complex multithreading.
 
-Q4. In what all domains can we use Python?
+Q4. In what all domains can we use Python?  
 Ans:  Machine learning / Artificial intelligence
       Desktop GUI
       Data analytics and data visualization 
@@ -29,41 +29,41 @@ Ans:  Machine learning / Artificial intelligence
       Game development
       Mobile app development
 
-Q5. What are variable and how can we declare them?
+Q5. What are variable and how can we declare them?  
 Ans: Python has no command for declaring a variable.
 Thus, declaring a variable in Python is very simple.
 Just name the variable & Assign the required value to it.
 The data type of the variable will be automatically determined from the value assigned, we need not define it explicitly.
 
-Q6. How can we take an input from the user in Python?
+Q6. How can we take an input from the user in Python?  
 Ans: In Python, Using the input() function, we take input from a user.
 
-Q7. What is the default datatype of the value that has been taken as an input using input() function?
+Q7. What is the default datatype of the value that has been taken as an input using input() function?  
 Ans: String, everything that you input() will be a string.
 
-Q8. What is type casting?
+Q8. What is type casting?  
 Ans: The conversion of one data type into the other data type is known as type casting in python or type conversion in python. 
 Python supports a wide variety of functions or methods like: int(), float(), str(), ord(), hex(), oct(), tuple(), set(), list(), dict(), etc. for the type casting in python.
 
-Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why?
+Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why?  
 
-Q10. What are keywords?
+Q10. What are keywords?  
 Ans: Keywords are some predefined and reserved words in python that have special meanings. Keywords are used to define the syntax of the coding. The keyword cannot be used as an identifier, function and variable name.
 Example: if, elif, else, True, False etc.
 
-Q11. Can we use keywords as a variable? Support your answer with reason.
+Q11. Can we use keywords as a variable? Support your answer with reason.  
 Ans: An example of something we can’t do with Python keywords is assign something to them. If we try, then we’ll get a SyntaxError. we won’t get a SyntaxError if we try to assign something to a built-in function or type, but it still isn’t a good idea. For a more in-depth explanation of ways keywords can be misused, check out Invalid Syntax in Python: Common Reasons for SyntaxError.
 
-Q12. What is indentation? What's the use of indentaion in Python?
+Q12. What is indentation? What's the use of indentaion in Python?  
 Ans: Python indentation refers to adding white space before a statement to a particular block of code. In another word, all the statements with the same space to the right, belong to the same code block.
 Example of Python Indentation.
 
-Q13. How can we throw some output in Python?
+Q13. How can we throw some output in Python?  
 Ans:The basic way to do output is the print statement. To end the printed line with a newline, add a print statement without any objects. This will print to any object that implements write(), which includes file objects.
 
-Q14. What are operators in Python?
-Ans: In Python, operators are special symbols that designate that some sort of computation should be performed. The values that an operator acts on are called operands.
-Types of Python Operators:
+Q14. What are operators in Python?  
+Ans: In Python, operators are special symbols that designate that some sort of computation should be performed. The values that an operator acts on are called operands.  
+Types of Python Operators:  
                         Arithmetic operators
                         Assignment Operators
                         Comparison Operators
@@ -71,7 +71,7 @@ Types of Python Operators:
                         Bitwise Operators
                         Special Operators
 
-Q15. What is difference between / and // operators?
+Q15. What is difference between / and // operators?  
 Ans: / (Division) Divides two numbers. It provides decimal places. 
 // (Floor Division) Divides two numbers & removes the decimal place. But in case of Negative value it floors the number too far from zero.
 
