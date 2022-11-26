@@ -29,7 +29,7 @@ Ans:  Machine learning / Artificial intelligence
       Game development
       Mobile app development
 
-Q5. What are variable and how can we declare them?  
+Q5. What are variable and how can we declare them?    
 Ans: Python has no command for declaring a variable.
 Thus, declaring a variable in Python is very simple.
 Just name the variable & Assign the required value to it.
@@ -38,7 +38,7 @@ The data type of the variable will be automatically determined from the value as
 Q6. How can we take an input from the user in Python?  
 Ans: In Python, Using the input() function, we take input from a user.
 
-Q7. What is the default datatype of the value that has been taken as an input using input() function?  
+Q7. What is the default datatype of the value that has been taken as an input using input() function?    
 Ans: String, everything that you input() will be a string.
 
 Q8. What is type casting?  
