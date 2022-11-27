@@ -71,7 +71,7 @@ Types of Python Operators:<br>
                         Bitwise Operators<br>
                         Special Operators<br>
 
-Q15. What is difference between / and // operators?<br>  
+Q15. What is difference between / and // operators?<br>
 Ans: / (Division) Divides two numbers. It provides decimal places.<br>
 // (Floor Division) Divides two numbers & removes the decimal place. But in case of Negative value it floors the number too far from zero.
 
@@ -83,7 +83,7 @@ iNeuroniNeuroniNeuroniNeuron
 Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
 
 Q18. What are boolean operator?<br>
-Booleans are simple and easy to use concepts that exist in every programming language. A boolean represents an idea of “true” or “false.” While writing an algorithm or any program, there are often situations where we want to execute different code in different situations. Booleans help our code to do just that easy and effective. More often, a boolean value is returned as a result of some kind of comparison operations.
+Ans: Booleans are simple and easy to use concepts that exist in every programming language. A boolean represents an idea of “true” or “false.” While writing an algorithm or any program, there are often situations where we want to execute different code in different situations. Booleans help our code to do just that easy and effective. More often, a boolean value is returned as a result of some kind of comparison operations.
 There are two Boolean keywords: True and False
 
 Q19. What will the output of the following?
@@ -98,10 +98,10 @@ True and False and True
 ```
 
 Q20. What are conditional statements in Python?<br>
-Conditional Statement in Python perform different computations or actions depending on whether a specific Boolean constraint evaluates to true or false. Conditional statements are handled by IF statements in Python.
+Ans: Conditional Statement in Python perform different computations or actions depending on whether a specific Boolean constraint evaluates to true or false. Conditional statements are handled by IF statements in Python.
 
 Q21. What is use of 'if', 'elif' and 'else' keywords?<br>
-if… elif…else are conditional statements that provide you with the decision making that is required when you want to execute code based on a particular condition. The if… elif…else statement used in Python helps automate that decision making process.
+Ans: if… elif…else are conditional statements that provide you with the decision making that is required when you want to execute code based on a particular condition. The if… elif…else statement used in Python helps automate that decision making process.
 
 Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
 
@@ -125,7 +125,7 @@ numbers = [12, 75, 150, 180, 145, 525, 50]
 ```
 
 Q26. What is a string? How can we declare string in Python?<br>
-A string is a sequence of characters.
+Ans: A string is a sequence of characters.
 Strings can be created by enclosing characters generally inside a single quote or double-quotes. 
 
 Q27. How can we access the string using its index?
@@ -145,10 +145,10 @@ desired_output = "norueNi"
 Q30. Resverse the string given in the above question.
 
 Q31. How can you delete entire string at once?<br>
-Python will not allow deleting a particular character in a string. Whereas you can remove the entire string variable using the del command.
+Ans: Python will not allow deleting a particular character in a string. Whereas you can remove the entire string variable using the del command.
 
 Q32. What is escape sequence?<br>
-An escape sequence is a sequence of characters that, when used inside a character or string, does not represent itself but is converted into another character or series of characters that may be difficult or impossible to express directly, like newline (\n), tab (\t), and so on.
+Ans: An escape sequence is a sequence of characters that, when used inside a character or string, does not represent itself but is converted into another character or series of characters that may be difficult or impossible to express directly, like newline (\n), tab (\t), and so on.
 
 Q33. How can you print the below string?
 ```
@@ -156,14 +156,14 @@ Q33. How can you print the below string?
 ```
 
 Q34. What is a list in Python?<br>
-List is a collection of different values or different types of items. Unlike array in c/c++/lava a List is capable of storing different types of values under one roof. The items in the list are separated with the comma (,) and enclosed with the square brackets[ ].
+Ans: List is a collection of different values or different types of items. Unlike array in c/c++/lava a List is capable of storing different types of values under one roof. The items in the list are separated with the comma (,) and enclosed with the square brackets[ ].
 Provides us the facility to store multiple types of values in a single unit.
 
 Q35. How can you create a list in Python?<br>
-In Python, a list is created by placing elements inside square brackets [ ], separated by commas(,).
+Ans: In Python, a list is created by placing elements inside square brackets [ ], separated by commas(,).
 
 Q36. How can we access the elements in a list?<br>
-To access values in lists, use the square brackets for slicing along with the index or indices to obtain value available at that index. For example −
+Ans: To access values in lists, use the square brackets for slicing along with the index or indices to obtain value available at that index. For example −
 
 Q37. Write a code to access the word "iNeuron" from the given list.
 ```
@@ -178,7 +178,7 @@ lst = ["Welcome", "to", "Data", "course"]
 ```
 
 Q40. What is a tuple? How is it different from list?<br>
-Tuples are used to store multiple items in a single variable.
+Ans: Tuples are used to store multiple items in a single variable.
 Tuple is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Set, and Dictionary, all with different qualities and usage.
 A tuple is a collection which is ordered and unchangeable.<br>
 Differences between Tuple & list:  
@@ -190,7 +190,7 @@ v) Lists have several built-in methods where A tuple does not have many built-in
 vi) A unexpected change or error is more likely to occur in a list where In a tuple, changes and errors don't usually occur because of immutability.
 
 Q41. How can you create a tuple in Python?<br>
-A tuple is created by placing all the items (elements) inside parentheses (), separated by commas. The parentheses are optional, however, it is a good practice to use them.
+Ans: A tuple is created by placing all the items (elements) inside parentheses (), separated by commas. The parentheses are optional, however, it is a good practice to use them.
 A tuple can have any number of items and they may be of different types (integer, float, list, string, etc.).
 
 Q42. Create a tuple and try to add your name in the tuple. Are you able to do it? Support your answer with reason.
@@ -237,33 +237,49 @@ Q60. Create a dictionary and access all the values in that dictionary.
 
 Q61. Create a nested dictionary and access all the element in the inner dictionary.
 
-Q62. What is the use of get() function?
+Q62. What is the use of get() function?<br>
+Ans: Python Dictionary get() Method return the value for the given key if present in the dictionary. If not, then it will return None (if get() is used with only one argument).
 
-Q63. What is the use of items() function?
+Q63. What is the use of items() function?<br>
+Ans: In Python Dictionary, items() method is used to return the list with all dictionary keys with values.
 
-Q64. What is the use of pop() function?
+Q64. What is the use of pop() function?<br>
+Ans: Python dictionary pop() method removes and returns the specified element from the dictionary.
 
-Q65. What is the use of popitems() function?
+Q65. What is the use of popitems() function?<br>
+Ans: Python dictionary popitem() method removes the last inserted key-value pair from the dictionary and returns it as a tuple.
 
-Q66. What is the use of keys() function?
+Q66. What is the use of keys() function?<br>
+Ans: The keys() method in Python Dictionary, returns a view object that displays a list of all the keys in the dictionary in order of insertion using Python.
 
-Q67. What is the use of values() function?
+Q67. What is the use of values() function?<br>
+Ans: values() is an inbuilt method in Python programming language that returns a view object. The view object contains the values of the dictionary, as a list. If you use the type() method on the return value, you get “dict_values object”. It must be cast to obtain the actual list.
 
-Q68. What are loops in Python?
+Q68. What are loops in Python?<br>
+Ans: Looping statement is a control statement which keeps on executing a single statement or a block of statements "N" times till the condition is true. Once the condition becomes false the execution is terminated
 
-Q69. How many type of loop are there in Python?
+Q69. How many type of loop are there in Python?<br>
+Ans: There are two types of loops in Python, “for” and “while”.
 
-Q70. What is the difference between for and while loops?
+Q70. What is the difference between for and while loops?<br>
+Ans:
 
-Q71. What is the use of continue statement?
+Q71. What is the use of continue statement?<br>
+Ans: The continue statement is used to skip the rest of the code inside a loop for the current iteration only. Loop does not terminate but continues on with the next iteration.
 
-Q72. What is the use of break statement?
+Q72. What is the use of break statement?<br>
+Ans:The break statement terminates the loop containing it. Control of the program flows to the statement immediately after the body of the loop.
+If the break statement is inside a nested loop (loop inside another loop), the break statement will terminate the innermost loop.
 
-Q73. What is the use of pass statement?
+Q73. What is the use of pass statement?<br>
+Ans:In Python programming, the pass statement is a null statement which can be used as a placeholder for future code.
+Suppose we have a loop or a function that is not implemented yet, but we want to implement it in the future. In such cases, we can use the pass statement.
 
-Q74. What is the use of range() function?
+Q74. What is the use of range() function?<br>
+Ans: The Python range() function returns a sequence of numbers, in a given range. The most common use of it is to iterate sequence on a sequence of numbers using Python loops.
 
-Q75. How can you loop over a dictionary?
+Q75. How can you loop over a dictionary?<br>
+Ans:
 
 
 ### Coding problems
