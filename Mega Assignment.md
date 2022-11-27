@@ -41,11 +41,11 @@ Ans: In Python, Using the input() function, we take input from a user.<br>
 # Example 
 name=(input("Enter Your Name: "))
 print("Hello ",name)
-# Here "name" is use as a variable & "input" ia Python built in Function.
+# Here "name" is use as a variable & "input" is a Python built in Function.
 ```
 
 Q7. What is the default datatype of the value that has been taken as an input using input() function?<br>
-Ans: String, everything that you input() will be a string.
+Ans: String, everything that you input() will be a string as default.
 
 Q8. What is type casting?<br>
 Ans: The conversion of one data type into the other data type is known as type casting in python or type conversion in python.<br>
@@ -84,6 +84,11 @@ Ans: / (Division) Divides two numbers. It provides decimal places.<br>
 Q16. Write a code that gives following as an output.
 ```
 iNeuroniNeuroniNeuroniNeuron
+```
+```
+name="iNeuron"
+print(name*4)
+# Here "name" is use as a variable & Arithmetic Operators * (Multiply) used.
 ```
 
 Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
