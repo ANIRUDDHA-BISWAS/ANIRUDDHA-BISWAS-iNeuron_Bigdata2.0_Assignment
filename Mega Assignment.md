@@ -24,7 +24,7 @@ Cons:<br>
 Q4. In what all domains can we use Python?<br>
 Ans:  Machine learning / Artificial intelligence.<br>
       Desktop GUI.<br>
-      Data analytics and data visualization.<br>  
+      Data analytics and data visualization.<br>
       Web development.<br>
       Game development.<br>
       Mobile app development.
@@ -82,7 +82,9 @@ iNeuroniNeuroniNeuroniNeuron
 
 Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
 
-Q18. What are boolean operator?
+Q18. What are boolean operator?<br>
+Booleans are simple and easy to use concepts that exist in every programming language. A boolean represents an idea of “true” or “false.” While writing an algorithm or any program, there are often situations where we want to execute different code in different situations. Booleans help our code to do just that easy and effective. More often, a boolean value is returned as a result of some kind of comparison operations.
+There are two Boolean keywords: True and False
 
 Q19. What will the output of the following?
 ```
@@ -95,9 +97,11 @@ True and False and True
 1 or 0 or 0
 ```
 
-Q20. What are conditional statements in Python?
+Q20. What are conditional statements in Python?<br>
+Conditional Statement in Python perform different computations or actions depending on whether a specific Boolean constraint evaluates to true or false. Conditional statements are handled by IF statements in Python.
 
-Q21. What is use of 'if', 'elif' and 'else' keywords?
+Q21. What is use of 'if', 'elif' and 'else' keywords?<br>
+if… elif…else are conditional statements that provide you with the decision making that is required when you want to execute code based on a particular condition. The if… elif…else statement used in Python helps automate that decision making process.
 
 Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
 
@@ -120,7 +124,9 @@ Q25. Write a program to display only those numbers from a list that satisfy the 
 numbers = [12, 75, 150, 180, 145, 525, 50]
 ```
 
-Q26. What is a string? How can we declare string in Python?
+Q26. What is a string? How can we declare string in Python?<br>
+A string is a sequence of characters.
+Strings can be created by enclosing characters generally inside a single quote or double-quotes. 
 
 Q27. How can we access the string using its index?
 
@@ -138,20 +144,26 @@ desired_output = "norueNi"
 
 Q30. Resverse the string given in the above question.
 
-Q31. How can you delete entire string at once?
+Q31. How can you delete entire string at once?<br>
+Python will not allow deleting a particular character in a string. Whereas you can remove the entire string variable using the del command.
 
-Q32. What is escape sequence?
+Q32. What is escape sequence?<br>
+An escape sequence is a sequence of characters that, when used inside a character or string, does not represent itself but is converted into another character or series of characters that may be difficult or impossible to express directly, like newline (\n), tab (\t), and so on.
 
 Q33. How can you print the below string?
 ```
 'iNeuron's Big Data Course'
 ```
 
-Q34. What is a list in Python?
+Q34. What is a list in Python?<br>
+List is a collection of different values or different types of items. Unlike array in c/c++/lava a List is capable of storing different types of values under one roof. The items in the list are separated with the comma (,) and enclosed with the square brackets[ ].
+Provides us the facility to store multiple types of values in a single unit.
 
-Q35. How can you create a list in Python?
+Q35. How can you create a list in Python?<br>
+In Python, a list is created by placing elements inside square brackets [ ], separated by commas(,).
 
-Q36. How can we access the elements in a list?
+Q36. How can we access the elements in a list?<br>
+To access values in lists, use the square brackets for slicing along with the index or indices to obtain value available at that index. For example −
 
 Q37. Write a code to access the word "iNeuron" from the given list.
 ```
@@ -165,9 +177,21 @@ Q39. Add the word "Big" in the 3rd index of the given list.
 lst = ["Welcome", "to", "Data", "course"]
 ```
 
-Q40. What is a tuple? How is it different from list?
+Q40. What is a tuple? How is it different from list?<br>
+Tuples are used to store multiple items in a single variable.
+Tuple is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Set, and Dictionary, all with different qualities and usage.
+A tuple is a collection which is ordered and unchangeable.<br>
+Differences between Tuple & list:  
+i) List are mutable where Tuples are immutable
+ii) Iterations are time-consuming in List where Iterations are comparatively Faster in Tuple.
+iii) Inserting and deleting items is easier with a list where Accessing the elements is best accomplished with a tuple data type.
+iv) Lists consume more memory where Tuple consumes less than the list.
+v) Lists have several built-in methods where A tuple does not have many built-in methods because of immutability.
+vi) A unexpected change or error is more likely to occur in a list where In a tuple, changes and errors don't usually occur because of immutability.
 
-Q41. How can you create a tuple in Python?
+Q41. How can you create a tuple in Python?<br>
+A tuple is created by placing all the items (elements) inside parentheses (), separated by commas. The parentheses are optional, however, it is a good practice to use them.
+A tuple can have any number of items and they may be of different types (integer, float, list, string, etc.).
 
 Q42. Create a tuple and try to add your name in the tuple. Are you able to do it? Support your answer with reason.
 
