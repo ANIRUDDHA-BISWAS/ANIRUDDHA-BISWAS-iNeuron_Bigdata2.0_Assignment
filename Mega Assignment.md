@@ -92,6 +92,14 @@ print(name*4)
 ```
 
 Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
+```
+a = int(input("Enter a Number: ")) 
+if (a % 2 == 0): 
+  print("The number is Even") 
+else: 
+  print("The number is Odd")
+# Here "a" is use as a variable & IF Statement used.
+```
 
 Q18. What are boolean operator?<br>
 Ans: Booleans are simple and easy to use concepts that exist in every programming language. A boolean represents an idea of “true” or “false.” While writing an algorithm or any program, there are often situations where we want to execute different code in different situations. Booleans help our code to do just that easy and effective. More often, a boolean value is returned as a result of some kind of comparison operations.
@@ -115,6 +123,14 @@ Q21. What is use of 'if', 'elif' and 'else' keywords?<br>
 Ans: if… elif…else are conditional statements that provide you with the decision making that is required when you want to execute code based on a particular condition. The if… elif…else statement used in Python helps automate that decision making process.
 
 Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
+```
+a=int(input("Enter Your Age: "))
+if a>=18:
+   print("I can vote")
+else:
+   print("I can't vote")
+# Here "a" is use as a variable & IF/Else Statement used.
+```
 
 Q23. Write a code that displays the sum of all the even numbers from the given list.
 ```
