@@ -36,7 +36,13 @@ Just name the variable & Assign the required value to it.
 The data type of the variable will be automatically determined from the value assigned, we need not define it explicitly.
 
 Q6. How can we take an input from the user in Python?<br>
-Ans: In Python, Using the input() function, we take input from a user.
+Ans: In Python, Using the input() function, we take input from a user.<br>
+```
+# Example 
+name=(input("Enter Your Name: "))
+print("Hello ",name)
+# Here "name" is use as a variable & "input" ia Python built in Function.
+```
 
 Q7. What is the default datatype of the value that has been taken as an input using input() function?<br>
 Ans: String, everything that you input() will be a string.
