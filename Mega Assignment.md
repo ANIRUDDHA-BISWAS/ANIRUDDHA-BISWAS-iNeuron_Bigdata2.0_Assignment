@@ -375,17 +375,12 @@ Q96. Write a python program to print below pattern.
 * * * * * 
 ```
 ```
+# Print pyramid pattern using For loop.
 rows = 5
 for i in range(rows):
     for j in range(i+1):
         print("* ", end="")
     print("\n")
- 
-# First, we chose height of the pyramid rows.
-# In the first loop, we iterate from i = 0 to i = rows.
-# The second loop runs from j = 0 to i + 1. In each iteration of this loop, we print i + 1 number of * without a new line. 
-# Here, the row number gives the number of * required to be printed on that row.
-# Once the inner loop ends, we print new line and start printing * in a new line.
 ```
 Q97. Write a python program to print below pattern.
 ```
@@ -395,6 +390,13 @@ Q97. Write a python program to print below pattern.
  ****
 *****
 ```
+```
+# Print pyramid pattern using while loop.
+n=5;i=0
+while(i<=n):
+  print(" " * (n - i) +"*" * i)
+  i+=1
+  ```
 
 Q98. Write a python program to print below pattern.
 ```
