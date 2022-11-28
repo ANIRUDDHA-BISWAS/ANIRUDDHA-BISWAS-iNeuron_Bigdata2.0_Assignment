@@ -311,12 +311,59 @@ Ans:
 
 ### Coding problems
 Q76. Write a Python program to find the factorial of a given number.
+```
+i=int(input("Enter Number: "))
+fac=1
+while (i>0):
+    fac=fac*i
+    i=i-1
+print("Factorial =",fac)
+```
 
 Q77. Write a Python program to calculate the simple interest. Formula to calculate simple interest is SI = (P*R*T)/100
+```
+# print("The simple interset is: ",SimpleInterset)
+def simple_interest(p,r,t):
+    si = (p * r * t)/100
+    return si
+      
+p=int(input("Enter Principal Amount: "))
+r=float(input("Enter Rate of Interest: "))
+t=int(input("Enter the number of Years: "))
+
+print('The Simple Interest is', simple_interest(p, r, t))
+```
 
 Q78. Write a Python program to calculate the compound interest. Formula of compound interest is A = P(1+ R/100)^t.
+```
+import math  
+def compound_interest(p,r,t):   
+    amt = p * (math.pow((1 + (r/100)),t))
+    print("Compound Amount: ",amt)
+    CI = amt - p
+    return CI
+
+p=float(input("Enter Principal Amount: "))
+r=float(input("Enter Rate of Interest: "))
+t=float(input("Enter the number of Years: "))
+
+print("Compound interest is",compound_interest(p,r,t))
+```
 
 Q79. Write a Python program to check if a number is prime or not.
+```
+n=int(input("Enter Number: "))
+count=0
+i=1
+while (i<=n):
+    if (n%i==0):
+        count=count+1
+    i=i+1
+if(count==2):
+    print("It's Prime Number")
+else:
+    print("It's Composite Number")
+```
 
 Q80. Write a Python program to check Armstrong Number.
 
