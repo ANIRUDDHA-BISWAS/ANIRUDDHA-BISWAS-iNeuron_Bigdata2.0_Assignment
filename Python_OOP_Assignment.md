@@ -65,7 +65,9 @@ Q29. How can I pass optional or keyword parameters from one function to another?
 Q30. What are Lambda Functions?<br>
 
 Q31. Explain Inheritance in Python with an example?<br>
-Ans. In Python, inheritance is the process of inheriting the properties of the parent class into a child class. The primary purpose of inheritance is the reusability of code. Using inheritance, we can use the existing class to create a new class instead of recreating it from scratch.
+Ans. In Python, inheritance is the process of inheriting the properties of the parent class into a child class. The primary purpose of inheritance is the reusability of code. Using inheritance, we can use the existing class to create a new class instead of recreating it from scratch.<br>
+In the below example, From a vehicle class, we are creating a Car class. We don't need to define common attributes and methods again in Car class. We only need to add those attributes and methods which are specific to the Car.<br>
+In inheritance, the child class acquires all the data members, properties, and functions of the parent class. Also, a child class can customize any of the parent class methods.
 ```
 # Base class
 class Vehicle:
