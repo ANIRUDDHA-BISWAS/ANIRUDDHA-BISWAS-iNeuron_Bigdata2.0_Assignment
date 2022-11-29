@@ -52,6 +52,11 @@ Ans: The conversion of one data type into the other data type is known as type c
 Python supports a wide variety of functions or methods like: int(), float(), str(), ord(), hex(), oct(), tuple(), set(), list(), dict(), etc. for the type casting in python.
 
 Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why?<br>
+Ans: In Python, users can take multiple values or inputs in one line by two methods.
+			a) Using the split() method
+			b) Using List comprehension
+Using split() method :
+
 
 Q10. What are keywords?<br>
 Ans: Keywords are some predefined and reserved words in python that have special meanings. Keywords are used to define the syntax of the coding. The keyword cannot be used as an identifier, function and variable name.<br>
