@@ -152,8 +152,8 @@ for item in numbers:
         print(item)
 ```
 output:
-75
-150
+75<br>
+150<br>
 145
 
 Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
