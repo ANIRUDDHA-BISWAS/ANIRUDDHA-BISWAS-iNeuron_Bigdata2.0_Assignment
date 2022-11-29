@@ -139,22 +139,6 @@ Q23. Write a code that displays the sum of all the even numbers from the given l
 ```
 numbers = [12, 75, 150, 180, 145, 525, 50]
 ```
-```
-numbers = [12, 75, 150, 180, 145, 525, 50]
-# Iterate each item of a list
-for item in numbers:
-    if item > 500:
-        break
-    elif item > 150:
-        continue
-    # check if number is divisible by 5
-    elif item % 5 == 0:
-        print(item)
-```
-output:
-75<br>
-150<br>
-145
 
 Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
 
@@ -168,6 +152,22 @@ Q25. Write a program to display only those numbers from a list that satisfy the 
 ```
 numbers = [12, 75, 150, 180, 145, 525, 50]
 ```
+```
+numbers = [12, 75, 150, 180, 145, 525, 50]
+# Iterate each item of a list
+for item in numbers:
+    if item > 500:
+        break
+    elif item > 150:
+        continue
+    # check if number is divisible by 5
+    elif item % 5 == 0:
+        print(item)
+```
+output:<br>
+75<br>
+150<br>
+145
 
 Q26. What is a string? How can we declare string in Python?<br>
 Ans: A string is a sequence of characters.
