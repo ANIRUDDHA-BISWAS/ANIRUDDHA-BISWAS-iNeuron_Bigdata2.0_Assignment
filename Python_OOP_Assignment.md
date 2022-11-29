@@ -17,6 +17,8 @@ Q6. What is the process for creating a class instance?<br>
 Ans. You create a class instance by calling the class name as though it were a function; any arguments passed into the class name show up as arguments two and beyond in the __init__ constructor method.
 
 Q7. What is the process for creating a class?<br>
+Ans. In Python, Use the keyword class to define a Class. In the class definition, the first string is docstring which, is a brief description of the class.
+The docstring is not mandatory but recommended to use. We can get docstring using __doc__ attribute. Use the following syntax to create a class.
 
 Q8. How would you define the superclasses of a class?<br>
 
