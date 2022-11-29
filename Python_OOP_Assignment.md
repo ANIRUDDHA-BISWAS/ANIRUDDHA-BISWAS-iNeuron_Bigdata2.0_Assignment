@@ -65,13 +65,49 @@ Q29. How can I pass optional or keyword parameters from one function to another?
 Q30. What are Lambda Functions?<br>
 
 Q31. Explain Inheritance in Python with an example?<br>
+Ans. In Python, inheritance is the process of inheriting the properties of the parent class into a child class. The primary purpose of inheritance is the reusability of code. Using inheritance, we can use the existing class to create a new class instead of recreating it from scratch.
+```
+# Base class
+class Vehicle:
+
+    def __init__(self, name, color, price):
+        self.name = name
+        self.color = color
+        self.price = price
+
+    def info(self):
+        print(self.name, self.color, self.price)
+
+# Child class
+class Car(Vehicle):
+
+    def change_gear(self, no):
+        print(self.name, 'change gear to number', no)
+
+# Create object of Car
+car = Car('BMW X1', 'Black', 35000)
+car.info()
+car.change_gear(5)
+```
 
 Q32. Suppose class C inherits from classes A and B as class C(A,B).Classes A and B both have their own versions of method func(). If we call func() from an object of class C, which version gets invoked?<br>
 
 Q33. Which methods/functions do we use to determine the type of instance and inheritance?<br>
 
 Q34.Explain the use of the 'nonlocal' keyword in Python.<br>
+The nonlocal keyword is used to work with variables inside nested functions, where the variable should not belong to the inner function. Use the keyword nonlocal to declare that the variable is not local.
+```
+#Make a function inside a function, which uses the variable x as a non local variable.
+def myfunc1():
+  x = "John"
+  def myfunc2():
+    nonlocal x
+    x = "hello"
+  myfunc2()
+  return x
 
+print(myfunc1())
+```
 
 Q35. What is the global keyword?<br>
 Ans. The global keyword is used to create global variables from a no-global scope, e.g. inside a function.
