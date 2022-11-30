@@ -261,8 +261,15 @@ lst = [1,2,3,"Hi",[45,54, "iNeuron"], "Big Data"]
 ``` 
 Ans:
 ```
+lst = [1,2,3,"Hi",[45,54, "iNeuron"], "Big Data"]
+sublst=lst[4]
+data=lst[4][2]
+print(data)
+```
 
-Q38. Take a list as an input from the user and find the length of the list.
+Q38. Take a list as an input from the user and find the length of the list.<br>
+Ans:
+
 
 Q39. Add the word "Big" in the 3rd index of the given list.
 ```
@@ -271,11 +278,12 @@ lst = ["Welcome", "to", "Data", "course"]
 Ans:
 ```
 lst = ["Welcome", "to", "Data", "course"]
-# Using insert
-# insert "Big" at position 3
+#Using insert
+#insert "Big" at position 3
 lst.insert(2, "Big")
 print(lst)
 ```
+
 Q40. What is a tuple? How is it different from list?<br>
 Ans: Tuples are used to store multiple items in a single variable.
 Tuple is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Set, and Dictionary, all with different qualities and usage.
