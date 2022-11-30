@@ -290,11 +290,24 @@ Q49. How is update() different from add()?
 
 Q50. What is clear() in sets?
 
-Q51. What is frozen set?
+Q51. What is frozen set?<br>
+Ans: Frozen sets in Python are immutable objects that only support methods and operators that produce a result without affecting the frozen set or sets to which they are applied. It can be done with frozenset() method in Python.<br>
+While elements of a set can be modified at any time, elements of the frozen set remain the same after creation.<br>
+If no parameters are passed, it returns an empty frozenset.
 
-Q52. How is frozen set different from set?
+Q52. How is frozen set different from set?<br>
+Ans: Frozenset is similar to set in Python, except that frozensets are immutable, which implies that once generated, elements from the frozenset cannot be added or removed. This function accepts any iterable object as input and transforms it into an immutable object.
 
-Q53. What is union() in sets? Explain via code.
+Q53. What is union() in sets? Explain via code.<br>
+Python set Union() Method returns a new set which contains all the items from the original set.<br>
+Union of two given sets is the set which contains all the elements of both the sets. The union of two given sets A and B is a set which consists of all the elements of A and all the elements of B such that no element is repeated.
+```
+A = {2, 4, 5, 6}
+B = {4, 6, 7, 8}
+
+print("A U B:", A.union(B))
+```
+Output: A U B: {2, 4, 5, 6, 7, 8}
 
 Q54. What is intersection() in sets? Explain via code.
 
