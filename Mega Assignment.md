@@ -14,7 +14,7 @@ Pros:<br>
       Python has a vast collection of libraries.<br>
       Python is free, open-source, and has a vibrant community.<br>
       Python is a portable programming language.<br>
-      Python is an interpreted, Embeddable Highly Scalable language.<br>
+      Python is an interpreted, Embeddable Highly Scalable language.<br>  
 Cons:<br>
       Python has speed limitations & High memory consumption.<br>
       Python has issues with design.<br>
