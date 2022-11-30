@@ -363,7 +363,20 @@ print (type(tup1))
 Q43. Can two tuple be appended. If yes, write a code for it. If not, why?<br>
 Ans: You can't add elements to a tuple because of their immutable property. There's no append() or extend() method for tuples, You can't remove elements from a tuple, also because of their immutability.
 
-Q44. Take a tuple as an input and print the count of elements in it.
+Q44. Take a tuple as an input and print the count of elements in it.<br>
+Ans:
+```
+#The count() method returns the number of times the specified element appears in the tuple.
+# tuple of vowels
+vowels = ('a', 'e', 'i', 'o', 'i', 'u')
+
+# counts the number of i's in the tuple
+count = vowels.count('i')
+
+print(count) 
+
+# Output: 2
+```
 
 Q45. What are sets in Python?<br>
 Ans: A set is an unordered collection of items. Every set element is unique (no duplicates) and must be immutable(cannot be changed). However, a set itself is mutable. We can add or remove items from it.
