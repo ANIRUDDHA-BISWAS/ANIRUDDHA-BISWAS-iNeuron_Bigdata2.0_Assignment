@@ -291,7 +291,38 @@ print(data)
 
 Q38. Take a list as an input from the user and find the length of the list.<br>
 Ans:
+```
+# creating an empty list
+lst = []
+# number of elements as input
+n = int(input("Enter number of elements : "))
+# iterating till the range
+for i in range(0, n):
+	ele = int(input())
 
+	lst.append(ele) # adding the element	
+# Python code to demonstrate
+# length of list
+# using len() and length_hint
+from operator import length_hint
+
+# Initializing list
+test_list = lst
+
+# Printing test_list
+print("The list is : " + str(test_list))
+
+# Finding length of list
+# using len()
+list_len = len(test_list)
+
+# Finding length of list
+# using length_hint()
+list_len_hint = length_hint(test_list)
+
+# Printing length of list
+print("Length of list using len() is : " + str(list_len))
+```
 
 Q39. Add the word "Big" in the 3rd index of the given list.
 ```
