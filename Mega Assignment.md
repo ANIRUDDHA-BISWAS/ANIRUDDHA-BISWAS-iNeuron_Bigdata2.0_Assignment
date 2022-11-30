@@ -569,7 +569,8 @@ Bihar
 
 
 ### Coding problems
-Q76. Write a Python program to find the factorial of a given number.
+Q76. Write a Python program to find the factorial of a given number.<br>
+Ans:
 ```
 i=int(input("Enter Number: "))
 fac=1
@@ -579,7 +580,8 @@ while (i>0):
 print("Factorial =",fac)
 ```
 
-Q77. Write a Python program to calculate the simple interest. Formula to calculate simple interest is SI = (P*R*T)/100
+Q77. Write a Python program to calculate the simple interest. Formula to calculate simple interest is SI = (P*R*T)/100<br>
+Ans:
 ```
 # print("The simple interset is: ",SimpleInterset)
 def simple_interest(p,r,t):
@@ -593,7 +595,8 @@ t=int(input("Enter the number of Years: "))
 print('The Simple Interest is', simple_interest(p, r, t))
 ```
 
-Q78. Write a Python program to calculate the compound interest. Formula of compound interest is A = P(1+ R/100)^t.
+Q78. Write a Python program to calculate the compound interest. Formula of compound interest is A = P(1+ R/100)^t.<br>
+Ans:
 ```
 import math  
 def compound_interest(p,r,t):   
@@ -690,7 +693,30 @@ list[0],list[length-1]=list[length-1],list[0]
 print("List after swapping \n",list)
 ```
 
-Q83. Write a Python program to swap two elements in a list.
+Q83. Write a Python program to swap two elements in a list.<br>
+Ans:
+```
+myList = []
+length = int(input("How many element you want to enter: "))
+for i in range(0, length):
+    val = int(input())
+    myList.append(val)
+
+print("Enter values to be swapped ")
+value1 = int(input("value 1: "))
+value2 = int(input("value 2: "))
+
+index1 = myList.index(value1)
+index2 = myList.index(value2)
+
+print("Initial List: ", myList)
+
+# Swapping given element
+myList[index1], myList[index2] = myList[index2], myList[index1]
+
+# Printing list 
+print("List after Swapping: ", myList)
+```
 
 Q84. Write a Python program to find N largest element from a list.
 
