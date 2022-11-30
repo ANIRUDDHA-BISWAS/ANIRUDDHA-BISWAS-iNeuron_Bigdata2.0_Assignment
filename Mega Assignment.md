@@ -252,11 +252,37 @@ Q43. Can two tuple be appended. If yes, write a code for it. If not, why?
 
 Q44. Take a tuple as an input and print the count of elements in it.
 
-Q45. What are sets in Python?
+Q45. What are sets in Python?<br>
+Ans: A set is an unordered collection of items. Every set element is unique (no duplicates) and must be immutable(cannot be changed). However, a set itself is mutable. We can add or remove items from it.
+Sets can also be used to perform mathematical set operations like union, intersection, symmetric difference, etc.
 
-Q46. How can you create a set?
+Q46. How can you create a set?<br>
+A set is created by placing all the items (elements) inside curly braces {}, separated by comma, or by using the built-in set() function.<br>
+It can have any number of items and they may be of different types (integer, float, tuple, string etc.). But a set cannot have mutable elements like lists, sets or dictionaries as its elements.
+```
+my_set = {1, 2, 3}
+print(my_set)
+
+# set of mixed datatypes
+my_set = {1.0, "Hello", (1, 2, 3)}
+print(my_set)
+```
+Output:<br>
+{1, 2, 3}<br>
+{1.0, (1, 2, 3), 'Hello'}
 
 Q47. Create a set and add "iNeuron" in your set.
+```
+my_iset = {1, 2, 3}
+print(my_iset)
+
+# set of mixed datatypes
+my_set = {1.0, "iNeuron", (1, 2, 3)}
+print(my_set)
+```
+Output:<br>
+{1, 2, 3}<br>
+{1.0, (1, 2, 3), 'iNeuron'}
 
 Q48. Try to add multiple values using add() function.
 
