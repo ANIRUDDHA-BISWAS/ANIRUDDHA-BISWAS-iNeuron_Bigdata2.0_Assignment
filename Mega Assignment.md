@@ -895,11 +895,49 @@ Q94. Write a Python program to get all combinations of 2 tuples.
 Input : test_tuple1 = (7, 2), test_tuple2 = (7, 8)
 Output : [(7, 7), (7, 8), (2, 7), (2, 8), (7, 7), (7, 2), (8, 7), (8, 2)]
 ```
+Ans:
+```
+# Using chain() + product()
+from itertools import chain, product
+
+# initializing tuples
+test_tuple1 = (7, 2)
+test_tuple2 = (7, 8)
+
+# printing original tuples
+print("The original tuple 1 : " + str(test_tuple1))
+print("The original tuple 2 : " + str(test_tuple2))
+
+# All pair combinations of 2 tuples
+# Using chain() + product()
+res = list(chain(product(test_tuple1, test_tuple2), product(test_tuple2, test_tuple1)))
+
+# printing result
+print("The filtered tuple : " + str(res))	
+```
 
 Q95. Write a Python program to sort a list of tuples by second item.
 ```
 Input : [('for', 24), ('Geeks', 8), ('Geeks', 30)] 
 Output : [('Geeks', 8), ('for', 24), ('Geeks', 30)]
+```
+Ans:
+```
+# Python program to sort a list of tuples by the second Item using sort()
+
+# Function to sort the list by second item of tuple
+def Sort_Tuple(tup):
+
+	# reverse = None (Sorts in Ascending order)
+	# key is set to sort using second element of sublist lambda has been used
+	tup.sort(key = lambda x: x[1])
+	return tup
+
+# Driver Code
+tup = [('for', 24), ('Geeks', 8), ('Geeks', 30)]
+
+# printing the sorted list of tuples
+print(Sort_Tuple(tup))
 ```
 
 Q96. Write a python program to print below pattern.
