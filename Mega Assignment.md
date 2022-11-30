@@ -299,7 +299,7 @@ Q52. How is frozen set different from set?<br>
 Ans: Frozenset is similar to set in Python, except that frozensets are immutable, which implies that once generated, elements from the frozenset cannot be added or removed. This function accepts any iterable object as input and transforms it into an immutable object.
 
 Q53. What is union() in sets? Explain via code.<br>
-Python set Union() Method returns a new set which contains all the items from the original set.<br>
+Ans: Python set Union() Method returns a new set which contains all the items from the original set.<br>
 Union of two given sets is the set which contains all the elements of both the sets. The union of two given sets A and B is a set which consists of all the elements of A and all the elements of B such that no element is repeated.
 ```
 A = {2, 4, 5, 6}
@@ -309,21 +309,40 @@ print("A U B:", A.union(B))
 ```
 Output: A U B: {2, 4, 5, 6, 7, 8}
 
-Q54. What is intersection() in sets? Explain via code.
+Q54. What is intersection() in sets? Explain via code.<br>
+Ans: Python set intersection() method returns a new set with an element that is common to all set. The intersection of two given sets is the largest set, which contains all the elements that are common to both sets. The intersection of two given sets A and B is a set which consists of all the elements which are common to both A and B.
+```
+s1 = {1, 2, 3}
+s2 = {2, 3}
+print(s1.intersection(s2))
+```
+Output: {2, 3}
 
-Q55. What is dictionary ibn Python?
+Q55. What is dictionary ibn Python?<br>
+Ans: Dictionary in Python is a collection of keys values, used to store data values like a map, which, unlike other data types which hold only a single value as an element.<br>
+Example of Dictionary in Python 
+Dictionary holds key:value pair. Key-Value is provided in the dictionary to make it more optimized. 
+```
+Dict = {1: 'ABC', 2: 'For', 3: 'ABCD'}
+print(Dict)
+```
+Output: {1: 'ABC', 2: 'For', 3: 'ABCD'}
 
 Q56. How is dictionary different from all other data structures.
+Ans: The dictionary Data Structure in Python is an unordered collection of items. While other Data Structures use only one value as the element, the dictionary is a slightly more compound data structure. It makes use of two elements i.e. a pair of elements, namely, a key and a value.
 
 Q57. How can we delare a dictionary in Python?
+Ans: A dictionary in Python is made up of key-value pairs. In the two sections that follow you will see two ways of creating a dictionary. The first way is by using a set of curly braces, {} , and the second way is by using the built-in dict() function.
 
 Q58. What will the output of the following?
 ```
 var = {}
 print(type(var))
 ```
+Ans: <class 'dict'>
 
 Q59. How can we add an element in a dictionary?
+Ans: Addition of elements can be done in multiple ways. One value at a time can be added to a Dictionary by defining value along with the key e.g. Dict[Key] = ‘Value’. Updating an existing value in a Dictionary can be done by using the built-in update() method. Nested key values can also be added to an existing Dictionary. 
 
 Q60. Create a dictionary and access all the values in that dictionary.
 
