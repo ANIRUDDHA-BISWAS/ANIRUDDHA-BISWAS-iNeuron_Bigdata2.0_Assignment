@@ -320,7 +320,7 @@ Set after Addition of elements from 1-5: <br>
 
 Q49. How is update() different from add()?<br>
 Ans: Differences between add() and update()<br>
-a) Use add() function to add a single element. Whereas use update() function to add multiple elements to the set.<br>
+a) Use add() function to add a single element. Whereas use update() function to add multiple elements.<br>
 b) add() is faster than update().<br>
 c) add () accepts immutable parameters only. Whereas accepts iterable sequences.<br>
 d) add() accepts a single parameter, whereas update() can accept multiple sequences.
