@@ -396,7 +396,11 @@ Q69. How many type of loop are there in Python?<br>
 Ans: There are two types of loops in Python, “for” and “while”.
 
 Q70. What is the difference between for and while loops?<br>
-Ans:
+Ans: Difference between for and while loops<br>
+i) For loop is used when the number of iterations is already known. While loop is used when the number of iterations is already Unknown.<br>
+ii) In the For loop Once done, it cannot be repeated. In the while loop, it can be repeated at every iteration.<br>
+iii) In the For loop to iterate, the range or xrange function is used. There is no such function in the while loop.<br>
+iv) The for loop is faster than the while loop. While loop is relatively slower as compared to for loop.
 
 Q71. What is the use of continue statement?<br>
 Ans: The continue statement is used to skip the rest of the code inside a loop for the current iteration only. Loop does not terminate but continues on with the next iteration.
