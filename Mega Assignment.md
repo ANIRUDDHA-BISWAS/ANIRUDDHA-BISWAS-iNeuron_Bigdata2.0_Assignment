@@ -718,13 +718,84 @@ myList[index1], myList[index2] = myList[index2], myList[index1]
 print("List after Swapping: ", myList)
 ```
 
-Q84. Write a Python program to find N largest element from a list.
+Q84. Write a Python program to find N largest element from a list.<br>
+Ans:
+```
+# Python program to find N largest
+# element from given list of integers
 
-Q85. Write a Python program to find cumulative sum of a list.
+# Function returns N largest elements
+def Nmaxelements(list1, N):
+	final_list = []
 
-Q86. Write a Python program to check if a string is palindrome or not.
+	for i in range(0, N):
+		max1 = 0
+		
+		for j in range(len(list1)):	
+			if list1[j] > max1:
+				max1 = list1[j];
+				
+		list1.remove(max1);
+		final_list.append(max1)
+		
+	print(final_list)
 
-Q87. Write a Python program to remove i'th element from a string.
+# Driver code
+list1 = [2, 6, 41, 85, 0, 3, 7, 6, 10]
+N = 2
+
+# Calling the function
+Nmaxelements(list1, N)
+```
+
+Q85. Write a Python program to find cumulative sum of a list.<br>
+Ans:
+```
+a=[]
+n= int(input("How many element you want to enter:"))
+for x in range(0,n):
+    element=int(input("Enter element" + str(x+1) + ":"))
+    a.append(element)
+b=[sum(a[0:x+1]) for x in range(0,len(a))]
+print("The original list is: ",a)
+print("The new list is: ",b)
+```
+
+Q86. Write a Python program to check if a string is palindrome or not.<br>
+Ans:
+```
+# Program to check if a string is palindrome or not
+my_str = 'aIbohPhoBiA'
+# make it suitable for caseless comparison
+my_str = my_str.casefold()
+# reverse the string
+rev_str = reversed(my_str)
+# check if the string is equal to its reverse
+if list(my_str) == list(rev_str):
+   print("The string is a palindrome.")
+else:
+   print("The string is not a palindrome.")
+```
+
+
+Q87. Write a Python program to remove i'th element from a string.<br>
+Ans:
+```
+# Python code to demonstrate method 
+# to remove i-th character
+myStr =  input('Enter the string : ')
+i = int(input('Enter the index of character to be removed : '))
+
+resStr = ""
+
+for index in range(len(myStr)):
+	if index != i:
+		resStr = resStr + myStr[index]
+
+# Printing all strings... 
+print ("Entered string : " + myStr)
+print ("String formed by removing i'th character : " + resStr)
+```
 
 Q88. Write a Python program to check if a substring is present in a given string.
 
