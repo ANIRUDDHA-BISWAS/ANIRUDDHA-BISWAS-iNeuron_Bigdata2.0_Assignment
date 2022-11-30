@@ -21,8 +21,10 @@ Ans. In Python, Use the keyword class to define a Class. In the class definition
 The docstring is not mandatory but recommended to use. We can get docstring using __doc__ attribute. Use the following syntax to create a class.
 
 Q8. How would you define the superclasses of a class?<br>
+Ans. The class from which a class inherits is called the parent or superclass. A class which inherits from a superclass is called a subclass, also called heir class or child class. Superclasses are sometimes called ancestors as well.
 
 Q9. What is the relationship between classes and modules?<br>
+Ans. The difference between a class and a module in python is that a class is used to define a blueprint for a given object, whereas a module is used to reuse a given piece of code inside another program.
 
 Q10. How do you make instances and classes?<br>
 
