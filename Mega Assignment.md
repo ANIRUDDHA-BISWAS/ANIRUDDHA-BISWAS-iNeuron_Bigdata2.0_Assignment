@@ -125,6 +125,7 @@ True and False and True
 
 1 or 0 or 0
 ```
+Ans: SyntaxError: multiple statements found while compiling a single statement
 
 Q20. What are conditional statements in Python?<br>
 Ans: Conditional Statement in Python perform different computations or actions depending on whether a specific Boolean constraint evaluates to true or false. Conditional statements are handled by IF statements in Python.
@@ -132,7 +133,8 @@ Ans: Conditional Statement in Python perform different computations or actions d
 Q21. What is use of 'if', 'elif' and 'else' keywords?<br>
 Ans: if… elif…else are conditional statements that provide you with the decision making that is required when you want to execute code based on a particular condition. The if… elif…else statement used in Python helps automate that decision making process.
 
-Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
+Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".<br>
+Ans:
 ```
 a=int(input("Enter Your Age: "))
 if a>=18:
