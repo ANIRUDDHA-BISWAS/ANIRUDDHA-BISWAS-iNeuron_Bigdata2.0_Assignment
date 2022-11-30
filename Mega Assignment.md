@@ -207,6 +207,11 @@ Q33. How can you print the below string?
 ```
 'iNeuron's Big Data Course'
 ```
+Ans:
+```
+string1 = "'iNeuron's Big Data Course'"
+print(string1)
+```
 
 Q34. What is a list in Python?<br>
 Ans: List is a collection of different values or different types of items. Unlike array in c/c++/lava a List is capable of storing different types of values under one roof. The items in the list are separated with the comma (,) and enclosed with the square brackets[ ].
