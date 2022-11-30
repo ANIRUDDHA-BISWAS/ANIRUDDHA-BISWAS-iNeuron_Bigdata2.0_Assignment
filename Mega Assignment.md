@@ -625,8 +625,55 @@ else:
 ```
 
 Q80. Write a Python program to check Armstrong Number.
+Ans:
+```
+number = int(input("Enter a number: "))
+digits = len(str(number))
+temp = number
+add_sum = 0
+while temp != 0:
+    # get the last digit in the number
+    k = temp % 10
+    # find k^digits
+    add_sum += k**digits
+    # floor division
+    # which updates the number with the second last digit as the last digit
+    temp = temp//10
+if add_sum == number:
+    print('Given number is an Armstrong Number')
+else:
+    print('Given number is not a Armstrong Number')
+```
 
 Q81. Write a Python program to find the n-th Fibonacci Number.
+Ans:
+```
+# Program to display the Fibonacci sequence up to n-th term
+
+nterms = int(input("How many terms? "))
+
+# first two terms
+n1, n2 = 0, 1
+count = 0
+
+# check if the number of terms is valid
+if nterms <= 0:
+   print("Please enter a positive integer")
+# if there is only one term, return n1
+elif nterms == 1:
+   print("Fibonacci sequence upto",nterms,":")
+   print(n1)
+# generate fibonacci sequence
+else:
+   print("Fibonacci sequence:")
+   while count < nterms:
+       print(n1)
+       nth = n1 + n2
+       # update values
+       n1 = n2
+       n2 = nth
+       count += 1
+```
 
 Q82. Write a Python program to interchange the first and last element in a list.
 
