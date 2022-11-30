@@ -64,8 +64,7 @@ Q11. Can we use keywords as a variable? Support your answer with reason.<br>
 Ans: An example of something we can’t do with Python keywords is assign something to them. If we try, then we’ll get a SyntaxError. we won’t get a SyntaxError if we try to assign something to a built-in function or type, but it still isn’t a good idea. For a more in-depth explanation of ways keywords can be misused, check out Invalid Syntax in Python: Common Reasons for SyntaxError.
 
 Q12. What is indentation? What's the use of indentaion in Python?<br>
-Ans: Python indentation refers to adding white space before a statement to a particular block of code. In another word, all the statements with the same space to the right, belong to the same code block.<br>
-Example of Python Indentation.
+Ans: Python indentation refers to adding white space before a statement to a particular block of code. In another word, all the statements with the same space to the right, belong to the same code block.
 
 Q13. How can we throw some output in Python?<br>
 Ans:The basic way to do output is the print statement. To end the printed line with a newline, add a print statement without any objects. This will print to any object that implements write(), which includes file objects.
