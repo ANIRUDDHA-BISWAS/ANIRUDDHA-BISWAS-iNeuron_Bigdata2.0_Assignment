@@ -284,11 +284,54 @@ Output:<br>
 {1, 2, 3}<br>
 {1.0, (1, 2, 3), 'iNeuron'}
 
-Q48. Try to add multiple values using add() function.
+Q48. Try to add multiple values using add() function.<br>
+Ans: Elements can be added to the Set by using the built-in add() function. Only one element at a time can be added to the set by using add() method, loops are used to add multiple elements at a time with the use of add() method.
+```
+# Addition of elements in a Set
 
-Q49. How is update() different from add()?
+# Creating a Set
+set1 = set()
+print("Initial blank Set: ")
+print(set1)
 
-Q50. What is clear() in sets?
+# Adding element and tuple to the Set
+set1.add(8)
+set1.add(9)
+set1.add((6, 7))
+print("\nSet after Addition of Three elements: ")
+print(set1)
+
+# Adding elements to the Set
+# using Iterator
+for i in range(1, 6):
+	set1.add(i)
+print("\nSet after Addition of elements from 1-5: ")
+print(set1)
+```
+Output:<br>
+Initial blank Set: <br>
+set()
+
+Set after Addition of Three elements: <br>
+{8, 9, (6, 7)}
+
+Set after Addition of elements from 1-5: <br>
+{1, 2, 3, (6, 7), 4, 5, 8, 9}
+
+Q49. How is update() different from add()?<br>
+Ans: Differences between add() and update()<br>
+a) Use add() function to add a single element. Whereas use update() function to add multiple elements to the set.<br>
+b) add() is faster than update().<br>
+c) add () accepts immutable parameters only. Whereas accepts iterable sequences.<br>
+d) add() accepts a single parameter, whereas update() can accept multiple sequences.
+
+Q50. What is clear() in sets?<br>
+Ans: The clear() method removes all elements in a set.
+```
+fruits = {"apple", "banana", "cherry"}
+fruits.clear()
+print(fruits)
+```
 
 Q51. What is frozen set?<br>
 Ans: Frozen sets in Python are immutable objects that only support methods and operators that produce a result without affecting the frozen set or sets to which they are applied. It can be done with frozenset() method in Python.<br>
