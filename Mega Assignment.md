@@ -345,6 +345,30 @@ Q59. How can we add an element in a dictionary?<br>
 Ans: Addition of elements can be done in multiple ways. One value at a time can be added to a Dictionary by defining value along with the key e.g. Dict[Key] = ‘Value’. Updating an existing value in a Dictionary can be done by using the built-in update() method. Nested key values can also be added to an existing Dictionary. 
 
 Q60. Create a dictionary and access all the values in that dictionary.<br>
+While indexing is used with other data types to access values, a dictionary uses keys. Keys can be used either inside square brackets [] or with the get() method.<br>
+If we use the square brackets [], KeyError is raised in case a key is not found in the dictionary. On the other hand, the get() method returns None if the key is not found.
+```
+my_dict = {'name': 'Ani', 'age': 34}
+
+print(my_dict['name'])
+
+print(my_dict.get('age'))
+
+# Trying to access keys which doesn't exist throws error
+# Output None
+print(my_dict.get('address'))
+
+# KeyError
+print(my_dict['address'])
+```
+Output:<br>
+Ani<br>
+34<br>
+None<br>
+Traceback (most recent call last):<br>
+  File "/config/workspace/test_run.py", line 15, in <module> <br>
+    print(my_dict['address'])<br>
+KeyError: 'address'
 
 
 
@@ -417,7 +441,29 @@ Q74. What is the use of range() function?<br>
 Ans: The Python range() function returns a sequence of numbers, in a given range. The most common use of it is to iterate sequence on a sequence of numbers using Python loops.
 
 Q75. How can you loop over a dictionary?<br>
-Ans:
+Ans: You can loop through a dictionary by using a for loop.<br>
+When looping through a dictionary, the return value are the keys of the dictionary, but there are methods to return the values as well.
+```
+statesAndCapitals = {
+	'Gujarat': 'Gandhinagar',
+	'Maharashtra': 'Mumbai',
+	'Rajasthan': 'Jaipur',
+	'Bihar': 'Patna'
+}
+
+print('List Of given states:\n')
+
+# Iterating over keys
+for state in statesAndCapitals:
+	print(state)
+```
+Output:<br>
+List Of given states:<br><br>
+
+Gujarat<br>
+Maharashtra<br>
+Rajasthan<br>
+Bihar
 
 
 ### Coding problems
