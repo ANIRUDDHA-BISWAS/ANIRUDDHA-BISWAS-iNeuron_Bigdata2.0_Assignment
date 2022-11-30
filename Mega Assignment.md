@@ -797,13 +797,63 @@ print ("Entered string : " + myStr)
 print ("String formed by removing i'th character : " + resStr)
 ```
 
-Q88. Write a Python program to check if a substring is present in a given string.
+Q88. Write a Python program to check if a substring is present in a given string.<br>
+Ans:
+```
+string=input("Enter string: ")
+sub_str=input("Enter word: ")
+if(string.find(sub_str)==-1):
+      print("Substring not found in string!")
+else:
+      print("Substring in string!")
+```
 
-Q89. Write a Python program to find words which are greater than given length k.
+Q89. Write a Python program to find words which are greater than given length k.<br>
+Ans:
+```
+# Python program to find words which are greater than given length k.
+myStr =  input('Enter the string : ')
+k = int(input('Enter k  (value for accepting string) : '))
+largerStrings = []
 
-Q90. Write a Python program to extract unquire dictionary values.
+# Finding words with length greater than k
+words = myStr.split(" ")
+for word in words:
+	if len(word) > k:
+		largerStrings.append(word)
+		
+# printing values
+print("All words which are greater than given length ", k, "are ", largerStrings)
+```
 
-Q91. Write a Python program to merge two dictionary.
+Q90. Write a Python program to extract unquire dictionary values.<br>
+Ans:
+```
+# Initialising dictionary
+myDict = {'Scala': 2, 'Javascript': 1, 'Python': 8, 'C++': 1, 'Java': 4}
+# extracting unique values using set comprehension
+uniqueValues = list({val for val in myDict.values() }) 
+# Printing the dictionary and unique values...
+print("Dictionary = ", end = " ")
+print(myDict)
+print("Unique Values = ", end = " ")
+print(uniqueValues)
+```
+
+Q91. Write a Python program to merge two dictionary.<br>
+Ans:
+```
+# Python code to merge dict using a single expression
+def Merge(dict1, dict2):
+	res = {**dict1, **dict2}
+	return res
+	
+# Driver code
+dict1 = {'a': 10, 'b': 8}
+dict2 = {'d': 6, 'c': 4}
+dict3 = Merge(dict1, dict2)
+print(dict3)
+```
 
 Q92. Write a Python program to convert a list of tuples into dictionary.
 ```
