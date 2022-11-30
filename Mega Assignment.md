@@ -55,6 +55,12 @@ Q9. Can we take more than one input from the user using single input() function?
 Ans: In Python, users can take multiple values or inputs in one line by two methods.<br>
 a) Using the split() method<br>
 b) Using List comprehension
+```
+#Python program to take multiple inputs from the user
+a, b = input("Enter two of your lucky number(Use Space Between two Numbers): ").split() 
+print("First lucky number is: ", a) 
+print("Second lucky number is: ", b)
+```
 
 Q10. What are keywords?<br>
 Ans: Keywords are some predefined and reserved words in python that have special meanings. Keywords are used to define the syntax of the coding. The keyword cannot be used as an identifier, function and variable name.<br>
@@ -140,6 +146,23 @@ numbers = [12, 75, 150, 180, 145, 525, 50]
 ```
 
 Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
+Ans:
+```
+# Python program to find the largest number among the three input numbers
+
+num1 = int(input("Enter you 1st Number: "))
+num2 = int(input("Enter you 2nd Number: "))
+num3 = int(input("Enter you 3rd Number: "))
+
+if (num1 >= num2) and (num1 >= num3):
+   largest = num1
+elif (num2 >= num1) and (num2 >= num3):
+   largest = num2
+else:
+   largest = num3
+
+print("The greatest number is: ", largest)
+```
 
 Q25. Write a program to display only those numbers from a list that satisfy the following conditions
 
