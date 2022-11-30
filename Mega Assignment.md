@@ -560,7 +560,7 @@ for state in statesAndCapitals:
 	print(state)
 ```
 Output:<br>
-List Of given states:<br><br>
+List Of given states:<br>
 
 Gujarat<br>
 Maharashtra<br>
@@ -609,7 +609,8 @@ t=float(input("Enter the number of Years: "))
 print("Compound interest is",compound_interest(p,r,t))
 ```
 
-Q79. Write a Python program to check if a number is prime or not.
+Q79. Write a Python program to check if a number is prime or not.<br>
+Ans:
 ```
 n=int(input("Enter Number: "))
 count=0
@@ -624,7 +625,7 @@ else:
     print("It's Composite Number")
 ```
 
-Q80. Write a Python program to check Armstrong Number.
+Q80. Write a Python program to check Armstrong Number.<br>
 Ans:
 ```
 number = int(input("Enter a number: "))
@@ -645,7 +646,7 @@ else:
     print('Given number is not a Armstrong Number')
 ```
 
-Q81. Write a Python program to find the n-th Fibonacci Number.
+Q81. Write a Python program to find the n-th Fibonacci Number.<br>
 Ans:
 ```
 # Program to display the Fibonacci sequence up to n-th term
@@ -675,7 +676,19 @@ else:
        count += 1
 ```
 
-Q82. Write a Python program to interchange the first and last element in a list.
+Q82. Write a Python program to interchange the first and last element in a list.<br>
+Ans:
+```
+list=[]
+num=int(input("How many element you want to enter:\n"))
+for i in range(1, num+1) :
+   print ("Enter Your",i, "Element")
+   list.append (int (input()))
+print("List before swapping \n",list)
+length=len(list)
+list[0],list[length-1]=list[length-1],list[0]
+print("List after swapping \n",list)
+```
 
 Q83. Write a Python program to swap two elements in a list.
 
