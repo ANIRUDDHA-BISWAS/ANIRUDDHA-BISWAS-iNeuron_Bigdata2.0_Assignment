@@ -89,7 +89,8 @@ Q15. What is difference between / and // operators?<br>
 Ans: / (Division) Divides two numbers. It provides decimal places.<br>
 // (Floor Division) Divides two numbers & removes the decimal place. But in case of Negative value it floors the number too far from zero.
 
-Q16. Write a code that gives following as an output.
+Q16. Write a code that gives following as an output.<br>
+Ans:
 ```
 iNeuroniNeuroniNeuroniNeuron
 ```
@@ -99,7 +100,8 @@ print(name*4)
 # Here "name" is use as a variable & Arithmetic Operators * (Multiply) used.
 ```
 
-Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
+Q17. Write a code to take a number as an input from the user and check if the number is odd or even.<br>
+Ans:
 ```
 a = int(input("Enter a Number: ")) 
 if (a % 2 == 0): 
@@ -144,8 +146,25 @@ Q23. Write a code that displays the sum of all the even numbers from the given l
 ```
 numbers = [12, 75, 150, 180, 145, 525, 50]
 ```
+Ans:
+```
+list1 = [12, 75, 150, 180, 145, 525, 50]
 
-Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
+even=[]
+odd=[]
+
+for number in list1:
+   if number % 2==0:
+      even.append(number)
+   else:
+      odd.append(number)
+
+print("Number List =",list1)
+print("Even Number List =",even)
+print("Sum of all Even Numbers =",sum(even))
+```
+
+Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.<br>
 Ans:
 ```
 # Python program to find the largest number among the three input numbers
@@ -174,6 +193,7 @@ Q25. Write a program to display only those numbers from a list that satisfy the 
 ```
 numbers = [12, 75, 150, 180, 145, 525, 50]
 ```
+Ans:
 ```
 numbers = [12, 75, 150, 180, 145, 525, 50]
 # Iterate each item of a list
@@ -383,6 +403,7 @@ Ans: A set is an unordered collection of items. Every set element is unique (no 
 Sets can also be used to perform mathematical set operations like union, intersection, symmetric difference, etc.
 
 Q46. How can you create a set?<br>
+Ans:
 A set is created by placing all the items (elements) inside curly braces {}, separated by comma, or by using the built-in set() function.<br>
 It can have any number of items and they may be of different types (integer, float, tuple, string etc.). But a set cannot have mutable elements like lists, sets or dictionaries as its elements.
 ```
@@ -397,7 +418,8 @@ Output:<br>
 {1, 2, 3}<br>
 {1.0, (1, 2, 3), 'Hello'}
 
-Q47. Create a set and add "iNeuron" in your set.
+Q47. Create a set and add "iNeuron" in your set.<br>
+Ans:
 ```
 my_iset = {1, 2, 3}
 print(my_iset)
@@ -514,6 +536,7 @@ Q59. How can we add an element in a dictionary?<br>
 Ans: Addition of elements can be done in multiple ways. One value at a time can be added to a Dictionary by defining value along with the key e.g. Dict[Key] = ‘Value’. Updating an existing value in a Dictionary can be done by using the built-in update() method. Nested key values can also be added to an existing Dictionary. 
 
 Q60. Create a dictionary and access all the values in that dictionary.<br>
+Ans:
 While indexing is used with other data types to access values, a dictionary uses keys. Keys can be used either inside square brackets [] or with the get() method.<br>
 If we use the square brackets [], KeyError is raised in case a key is not found in the dictionary. On the other hand, the get() method returns None if the key is not found.
 ```
