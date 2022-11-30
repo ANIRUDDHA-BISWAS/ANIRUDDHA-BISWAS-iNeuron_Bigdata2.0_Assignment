@@ -173,7 +173,15 @@ Q26. What is a string? How can we declare string in Python?<br>
 Ans: A string is a sequence of characters.
 Strings can be created by enclosing characters generally inside a single quote or double-quotes. 
 
-Q27. How can we access the string using its index?
+Q27. How can we access the string using its index?<br>
+Ans: Python String index() Method allows a user to find the index of the first occurrence of an existing substring inside a given string.<br>
+Syntax:  string_obj.index(substring, begp, endp)<br>
+```
+#Example
+string = 'random'
+print("index of 'and' in string:", string.index('and'))
+```
+Output: index of 'and' in string: 1
 
 Q28. Write a code to get the desired output of the following
 ```
