@@ -860,11 +860,34 @@ Q92. Write a Python program to convert a list of tuples into dictionary.
 Input : [('Sachin', 10), ('MSD', 7), ('Kohli', 18), ('Rohit', 45)]
 Output : {'Sachin': 10, 'MSD': 7, 'Kohli': 18, 'Rohit': 45}
 ```
+Ans:
+```
+# Python code to convert into dictionary
+def Convert(tup, di):
+	di = dict(tup)
+	return di
+	
+# Driver Code
+tups = [('Sachin', 10), ('MSD', 7), ('Kohli', 18), ('Rohit', 45)]
+dictionary = {}
+print (Convert(tups, dictionary))
+```
 
 Q93. Write a Python program to create a list of tuples from given list having number and its cube in each tuple.
 ```
 Input: list = [9, 5, 6]
 Output: [(9, 729), (5, 125), (6, 216)]
+```
+Ans:
+```
+# creating a list
+list1 = [9, 5, 6]
+
+# using list comprehension to iterate each values in list and create a tuple as specified
+result = [(val, pow(val, 3)) for val in list1]
+
+# print the result
+print(result)
 ```
 
 Q94. Write a Python program to get all combinations of 2 tuples.
@@ -887,6 +910,7 @@ Q96. Write a python program to print below pattern.
 * * * * 
 * * * * * 
 ```
+Ans:
 ```
 # Print pyramid pattern using For loop.
 rows = 5
@@ -903,6 +927,7 @@ Q97. Write a python program to print below pattern.
  ****
 *****
 ```
+Ans:
 ```
 # Print pyramid pattern using while loop.
 n=5;i=0
@@ -919,6 +944,7 @@ Q98. Write a python program to print below pattern.
  * * * * 
 * * * * * 
 ```
+Ans:
 ```
 # Function to demonstrate printing pattern triangle
 def triangle(n):
@@ -960,6 +986,7 @@ Q99. Write a python program to print below pattern.
 1 2 3 4 
 1 2 3 4 5
 ```
+Ans:
 ```
 # Function to demonstrate printing pattern of numbers
 def numpat(n):
@@ -999,6 +1026,7 @@ C C C
 D D D D 
 E E E E E 
 ```
+Ans:
 ```
 # Function to demonstrate printing pattern of alphabets
 def alphapat(n):
