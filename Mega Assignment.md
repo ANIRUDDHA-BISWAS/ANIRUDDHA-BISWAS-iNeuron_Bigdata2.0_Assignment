@@ -206,7 +206,14 @@ print(string[-1:-8:-1])
 #print(string[start_value : stop_value : step_value])
 ```
 
-Q30. Resverse the string given in the above question.
+Q30. Resverse the string given in the above question.<br>
+Ans: string = 	"Big Data iNeuron"
+Desired output: "norueNi ataD giB"
+```
+string = "Big Data iNeuron"
+print(string[-1::-1])
+#Using Slicing method
+```
 
 Q31. How can you delete entire string at once?<br>
 Ans: Python will not allow deleting a particular character in a string. Whereas you can remove the entire string variable using the del command.
@@ -233,6 +240,20 @@ Ans: In Python, a list is created by placing elements inside square brackets [ ]
 
 Q36. How can we access the elements in a list?<br>
 Ans: To access values in lists, use the square brackets for slicing along with the index or indices to obtain value available at that index. For example −
+```
+#Creating a list
+list1 = ['physics', 'chemistry', 1997, 2000]
+list2 = [1, 2, 3, 4, 5 ]
+list3 = ["a", "b", "c", "d"]
+
+# Accessing Values in Lists
+print ("list1[0]: ", list1[0])
+print ("list2[1:5]: ", list2[1:5])
+```
+Output:
+list1[0]:  physics
+list2[1:5]:  [2, 3, 4, 5]
+
 
 Q37. Write a code to access the word "iNeuron" from the given list.
 ```
