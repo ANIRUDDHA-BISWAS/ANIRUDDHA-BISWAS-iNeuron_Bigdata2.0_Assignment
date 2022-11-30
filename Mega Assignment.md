@@ -299,9 +299,15 @@ Q41. How can you create a tuple in Python?<br>
 Ans: A tuple is created by placing all the items (elements) inside parentheses (), separated by commas. The parentheses are optional, however, it is a good practice to use them.
 A tuple can have any number of items and they may be of different types (integer, float, list, string, etc.).
 
-Q42. Create a tuple and try to add your name in the tuple. Are you able to do it? Support your answer with reason.
+Q42. Create a tuple and try to add your name in the tuple. Are you able to do it? Support your answer with reason.<br>
+Ans: In Python, tuples are created by placing a sequence of values separated by ‘comma’ with or without the use of parentheses for grouping the data sequence.
+```
+tup1=("Aniruddha Biswas",)
+print (type(tup1))
+```
 
-Q43. Can two tuple be appended. If yes, write a code for it. If not, why?
+Q43. Can two tuple be appended. If yes, write a code for it. If not, why?<br>
+Ans: You can't add elements to a tuple because of their immutable property. There's no append() or extend() method for tuples, You can't remove elements from a tuple, also because of their immutability.
 
 Q44. Take a tuple as an input and print the count of elements in it.
 
