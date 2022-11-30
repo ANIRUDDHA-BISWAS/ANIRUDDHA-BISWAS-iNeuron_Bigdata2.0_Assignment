@@ -328,10 +328,10 @@ print(Dict)
 ```
 Output: {1: 'ABC', 2: 'For', 3: 'ABCD'}
 
-Q56. How is dictionary different from all other data structures.
+Q56. How is dictionary different from all other data structures.<br>
 Ans: The dictionary Data Structure in Python is an unordered collection of items. While other Data Structures use only one value as the element, the dictionary is a slightly more compound data structure. It makes use of two elements i.e. a pair of elements, namely, a key and a value.
 
-Q57. How can we delare a dictionary in Python?
+Q57. How can we delare a dictionary in Python?<br>
 Ans: A dictionary in Python is made up of key-value pairs. In the two sections that follow you will see two ways of creating a dictionary. The first way is by using a set of curly braces, {} , and the second way is by using the built-in dict() function.
 
 Q58. What will the output of the following?
@@ -341,12 +341,35 @@ print(type(var))
 ```
 Ans: <class 'dict'>
 
-Q59. How can we add an element in a dictionary?
+Q59. How can we add an element in a dictionary?<br>
 Ans: Addition of elements can be done in multiple ways. One value at a time can be added to a Dictionary by defining value along with the key e.g. Dict[Key] = ‘Value’. Updating an existing value in a Dictionary can be done by using the built-in update() method. Nested key values can also be added to an existing Dictionary. 
 
-Q60. Create a dictionary and access all the values in that dictionary.
+Q60. Create a dictionary and access all the values in that dictionary.<br>
 
-Q61. Create a nested dictionary and access all the element in the inner dictionary.
+
+
+Q61. Create a nested dictionary and access all the element in the inner dictionary.<br>
+Ans: In Python, a nested dictionary is a dictionary inside a dictionary. It's a collection of dictionaries into one single dictionary.
+```
+people = {1: {'name': 'Ram', 'age': '27', 'sex': 'Male'},
+          2: {'name': 'Sita', 'age': '22', 'sex': 'Female'}}
+
+print(people)
+```
+Output: {1: {'name': 'Ram', 'age': '27', 'sex': 'Male'}, 2: {'name': 'Sita', 'age': '22', 'sex': 'Female'}}<br>
+In the above program, people is a nested dictionary. The internal dictionary 1 and 2 is assigned to people. Here, both the dictionary have key name, age , sex with different values. Now, we print the result of people.<br>
+To access element of a nested dictionary, we use indexing [] syntax in Python.
+```
+people = {1: {'name': 'Ram', 'age': '27', 'sex': 'Male'},
+          2: {'name': 'Sita', 'age': '22', 'sex': 'Female'}}
+
+print(people[1]['name'])
+print(people[1]['age'])
+print(people[1]['sex'])
+```
+Output:Ram<br>
+27<br>
+Male
 
 Q62. What is the use of get() function?<br>
 Ans: Python Dictionary get() Method return the value for the given key if present in the dictionary. If not, then it will return None (if get() is used with only one argument).
