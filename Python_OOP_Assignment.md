@@ -40,6 +40,8 @@ Q14. How does a Python class handle operator overloading?<br>
 Q15. When do you consider allowing operator overloading of your classes?<br>
 
 Q16. What is the most popular form of operator overloading?<br>
+Ans: A very popular and convenient example is the Addition (+) operator.<br>
+Just think how the ‘+’ operator operates on two numbers and the same operator operates on two strings. It performs “Addition” on numbers whereas it performs “Concatenation” on strings.
 
 Q17. What are the two most important concepts to grasp in order to comprehend Python OOP code?<br>
 
