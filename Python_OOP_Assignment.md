@@ -1,5 +1,6 @@
 Q1. What is the purpose of Python's OOP?<br>
-Ans. OOP is about code reuse — you factor code to minimize redundancy and program by customizing what already exists instead of changing code in place or starting from scratch.
+Ans. OOPS is abbreviated as Object Oriented Programming system in which programs are considered as a collection of objects. Each object is nothing but an instance of a class.<br>
+OOP is about code reuse — you factor code to minimize redundancy and program by customizing what already exists instead of changing code in place or starting from scratch.
 
 Q2. Where does an inheritance search look for an attribute?<br>
 Ans. An inheritance search looks for an attribute first in the instance object, then in the class the instance was created from, then in all higher superclasses, progressing from left to right (by default). The search stops at the first place the attribute is found.
