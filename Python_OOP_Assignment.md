@@ -70,6 +70,7 @@ if a % 2 != 0:
 ```
 
 Q26. What does the assert statement do, and what other statement is it like?<br>
+Ans: Python has built-in assert statement to use assertion condition in the program. assert statement has a condition or expression which is supposed to be always true. If the condition is false assert halts the program and gives an AssertionError.
 
 Q27. What is the purpose of the with/as argument, and what other statement is it like?<br>
 
