@@ -60,6 +60,14 @@ Q23. What is the purpose of the try statement?<br>
 Q24. What are the two most popular try statement variations?<br>
 
 Q25. What is the purpose of the raise statement?<br>
+Python raise Keyword is used to raise exceptions or errors. The raise keyword raises an error and stops the control flow of the program. It is used to bring up the current exception in an exception handler so that it can be handled further up the call stack.<br>
+Example: In the below code, we check if an integer is even or odd. if the integer is odd an exception is raised.  a  is a variable to which we assigned a number 5, as a is odd, then if loop checks if it’s an odd integer, if it’s an odd integer then an error is raised.
+```
+a = 5
+
+if a % 2 != 0:
+	raise Exception("The number shouldn't be an odd integer")
+```
 
 Q26. What does the assert statement do, and what other statement is it like?<br>
 
