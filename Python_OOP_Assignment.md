@@ -34,6 +34,7 @@ Q11. Where and how should be class attributes created?<br>
 Q12. Where and how are instance attributes created?<br>
 
 Q13. What does the term "self" in a Python class mean?<br>
+Ans: The self is used to represent the instance of the class. With this keyword, we can access the attributes and methods of the class in python. It binds the attributes with the given arguments. The reason why we use self is that Python does not use the ‘@’ syntax to refer to instance attributes. In Python, we have methods that make the instance to be passed automatically, but not received automatically.
 
 Q14. How does a Python class handle operator overloading?<br>
 
