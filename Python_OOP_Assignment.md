@@ -65,7 +65,7 @@ Q26. What does the assert statement do, and what other statement is it like?<br>
 
 Q27. What is the purpose of the with/as argument, and what other statement is it like?<br>
 
-Q28. What are *args, ***kwargs?<br>
+Q28. What are *args, ***kwargs?
 
 Ans. The special syntax *args in function definitions in python is used to pass a variable number of arguments to a function. It is used to pass a non-key worded, variable-length argument list.<br> 
 The syntax is to use the symbol * to take in a variable number of arguments; by convention, it is often used with the word args.<br>
