@@ -28,10 +28,17 @@ Q9. What is the relationship between classes and modules?<br>
 Ans. The difference between a class and a module in python is that a class is used to define a blueprint for a given object, whereas a module is used to reuse a given piece of code inside another program.
 
 Q10. How do you make instances and classes?<br>
+Ans:Everything in Python is an object such as integers, lists, dictionaries, functions and so on. Every object has a type and the object types are created using classes. Instance is an object that belongs to a class. For instance, list is a class in Python.<br>
+To create instances of a class, we call the class using class name and pass in whatever arguments its __init__ method accepts.
 
 Q11. Where and how should be class attributes created?<br>
+Ans:The attribute defined in the class is called “class attributes’ and the attributes defined in the function is called ‘instance attributes’. While defining, these attributes are not prefixed by self, as these are the property of the class and not of a particular instance.<br>
+The class attributes can be accessed by the class itself ( className.attributeName) as well as by the instances of the class (inst.attributeName). So, the instances have access to both the instance attribute as well as class attributes.<br>
+A class attribute can be overridden in an instance, even though it is not a good method to break encapsulation.
 
 Q12. Where and how are instance attributes created?<br>
+Ans:Instance Attributes are unique to each object, (an instance is another name for an object). Here, any Dog object we create will be able to store its name and age. We can change either attribute of either dog, without affecting any other dog objects we've created.<br>
+We add instance attributes usually by defining the constructor method “__init__”. Within __init__ we pass the first parameters self which represents an object from a class that is currently being defined, and usually, we attach instance attributes to these objects using the dot operator.
 
 Q13. What does the term "self" in a Python class mean?<br>
 Ans: The self is used to represent the instance of the class. With this keyword, we can access the attributes and methods of the class in python. It binds the attributes with the given arguments. The reason why we use self is that Python does not use the ‘@’ syntax to refer to instance attributes. In Python, we have methods that make the instance to be passed automatically, but not received automatically.
