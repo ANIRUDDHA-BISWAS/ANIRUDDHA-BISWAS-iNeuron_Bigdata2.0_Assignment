@@ -149,6 +149,22 @@ Q26. What does the assert statement do, and what other statement is it like?<br>
 Ans: Python has built-in assert statement to use assertion condition in the program. assert statement has a condition or expression which is supposed to be always true. If the condition is false assert halts the program and gives an AssertionError.
 
 Q27. What is the purpose of the with/as argument, and what other statement is it like?<br>
+ans: In Python, with statement is used in exception handling to make the code cleaner and much more readable. It simplifies the management of common resources like file streams. Observe the following code example on how the use of with statement makes code cleaner.The with statement adds the given object to the head of this scope chain during the evaluation of its statement body.
+```
+# file handling
+
+# 1) without using with statement
+file = open('file_path', 'w')
+file.write('hello world !')
+file.close()
+
+# 2) without using with statement
+file = open('file_path', 'w')
+try:
+	file.write('hello world')
+finally:
+	file.close()
+```
 
 Q28. What are *args, ***kwargs?
 
