@@ -198,6 +198,7 @@ car.change_gear(5)
 ```
 
 Q32. Suppose class C inherits from classes A and B as class C(A,B).Classes A and B both have their own versions of method func(). If we call func() from an object of class C, which version gets invoked?<br>
+Ans: Class A func().invoked.
 
 Q33. Which methods/functions do we use to determine the type of instance and inheritance?<br>
 Ans:Using isinstance() function, we can test whether an object/variable is an instance of the specified type or class such as int or list. In the case of inheritance, we can checks if the specified class is the parent class of an object.<br>
