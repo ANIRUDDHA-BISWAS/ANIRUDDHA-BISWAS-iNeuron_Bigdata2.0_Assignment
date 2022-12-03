@@ -66,6 +66,7 @@ Ans: A very popular and convenient example is the Addition (+) operator.<br>
 Just think how the ‘+’ operator operates on two numbers and the same operator operates on two strings. It performs “Addition” on numbers whereas it performs “Concatenation” on strings.
 
 Q17. What are the two most important concepts to grasp in order to comprehend Python OOP code?<br>
+Ans:In order to develop robust and well-designed software products with Python, it is essential to obtain a comprehensive understanding of OOP. In this article, we will elaborate on two key concepts of OOP which are inheritance and polymorphism. Both inheritance and polymorphism are key ingredients for designing robust, flexible, and easy-to-maintain software. 
 
 Q18. Describe three applications for exception processing.<br>
 
