@@ -121,6 +121,13 @@ Q21. Describe two methods for triggering exceptions in your script.<br>
 Ans:To avoid such a scenario, there are two methods to handle Python exceptions: Try – This method catches the exceptions raised by the program. Raise – Triggers an exception manually using custom exceptions.
 
 Q22. Identify two methods for specifying actions to be executed at termination time, regardless of whether or not an exception exists.<br>
+assertRaises() – It allows an exception to be encapsulated, meaning that the test can throw an exception without exiting the execution, as is normally the case for unhandled exceptions. The test passes if exception is raised, gives an error if another exception is raised, or fails if no exception is raised.There are two ways you can use assertRaises-<br>
+1)using keyword arguments.<br>
+assertRaises(exception, function, *args, **keywords)
+Just pass the exception, the callable function and the parameters of the callable function as keyword arguments that will elicit the exception.<br>
+2)using context manager.
+assertRaises(exception)
+Make a function call that should raise the exception with a context.
 
 Q23. What is the purpose of the try statement?<br>
 Ans:The try statement allows you to define a block of code to be tested for errors while it is being executed. The catch statement allows you to define a block of code to be executed, if an error occurs in the try block.
