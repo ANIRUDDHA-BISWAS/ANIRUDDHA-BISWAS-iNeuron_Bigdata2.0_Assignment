@@ -67,6 +67,7 @@ TypeError: unsupported operand type(s) for +: 'Point' and 'Point'<br>
 Here, we can see that a TypeError was raised, since Python didn't know how to add two Point objects together.
 
 Q15. When do you consider allowing operator overloading of your classes?<br>
+Ans:The operator overloading in Python means provide extended meaning beyond their predefined operational meaning. Such as, we use the "+" operator for adding two integers as well as joining two strings or merging two lists. We can achieve this as the "+" operator is overloaded by the "int" class and "str" class.
 
 Q16. What is the most popular form of operator overloading?<br>
 Ans: A very popular and convenient example is the Addition (+) operator.<br>
@@ -76,6 +77,39 @@ Q17. What are the two most important concepts to grasp in order to comprehend Py
 Ans:In order to develop robust and well-designed software products with Python, it is essential to obtain a comprehensive understanding of OOP. In this article, we will elaborate on two key concepts of OOP which are inheritance and polymorphism. Both inheritance and polymorphism are key ingredients for designing robust, flexible, and easy-to-maintain software. 
 
 Q18. Describe three applications for exception processing.<br>
+Ans:In Python, exceptions can be handled using a try statement.<br>
+The critical operation which can raise an exception is placed inside the try clause. The code that handles the exceptions is written in the except clause.We can thus choose what operations to perform once we have caught the exception.<br>
+Here is a simple example.
+```
+# import module sys to get the type of exception 
+import sys
+
+randomList = ['a', 0, 2]
+
+for entry in randomList:
+    try:
+        print("The entry is", entry)
+        r = 1/int(entry)
+        break
+    except:
+        print("Oops!", sys.exc_info()[0], "occurred.")
+        print("Next entry.")
+        print()
+print("The reciprocal of", entry, "is", r)
+```
+Output:<br>
+The entry is a<br>
+Oops! <class 'ValueError'> occurred.<br>
+Next entry.<br>
+	
+The entry is 0<br>
+Oops! <class 'ZeroDivisionError'> occured.<br>
+Next entry.<br>
+
+The entry is 2<br>
+The reciprocal of 2 is 0.5<br>
+In this program, we loop through the values of the randomList list. As previously mentioned, the portion that can cause an exception is placed inside the try block.If no exception occurs, the except block is skipped and normal flow continues(for last value). But if any exception occurs, it is caught by the except block (first and second values).Here, we print the name of the exception using the exc_info() function inside sys module. We can see that a causes ValueError and 0 causes ZeroDivisionError.
+	
 
 Q19. What happens if you don't do something extra to treat an exception?<br>
 
