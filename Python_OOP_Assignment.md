@@ -123,8 +123,10 @@ Ans:To avoid such a scenario, there are two methods to handle Python exceptions:
 Q22. Identify two methods for specifying actions to be executed at termination time, regardless of whether or not an exception exists.<br>
 
 Q23. What is the purpose of the try statement?<br>
+Ans:The try statement allows you to define a block of code to be tested for errors while it is being executed. The catch statement allows you to define a block of code to be executed, if an error occurs in the try block.
 
 Q24. What are the two most popular try statement variations?<br>
+Ans:The Different Try/Except Variations. So far we've used a try / except and even a try / except / except , but this is only two-thirds of the story. There are two other optional segments to a try block: else and finally . Both of these optional blocks will come after the try and the except.
 
 Q25. What is the purpose of the raise statement?<br>
 Python raise Keyword is used to raise exceptions or errors. The raise keyword raises an error and stops the control flow of the program. It is used to bring up the current exception in an exception handler so that it can be handled further up the call stack.<br>
