@@ -112,10 +112,13 @@ In this program, we loop through the values of the randomList list. As previousl
 	
 
 Q19. What happens if you don't do something extra to treat an exception?<br>
+Ans:An exception object is created when a Python script raises an exception. If the script explicitly doesn't handle the exception, the program will be forced to terminate abruptly.
 
 Q20. What are your options for recovering from an exception in your script?<br>
+Ans:The try-catch is the simplest method of handling exceptions. Put the code you want to run in the try block, and any Java exceptions that the code throws are caught by one or more catch blocks. This method will catch any type of Java exceptions that get thrown. This is the simplest mechanism for handling exceptions.
 
 Q21. Describe two methods for triggering exceptions in your script.<br>
+Ans:To avoid such a scenario, there are two methods to handle Python exceptions: Try – This method catches the exceptions raised by the program. Raise – Triggers an exception manually using custom exceptions.
 
 Q22. Identify two methods for specifying actions to be executed at termination time, regardless of whether or not an exception exists.<br>
 
