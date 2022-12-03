@@ -193,6 +193,17 @@ car.change_gear(5)
 Q32. Suppose class C inherits from classes A and B as class C(A,B).Classes A and B both have their own versions of method func(). If we call func() from an object of class C, which version gets invoked?<br>
 
 Q33. Which methods/functions do we use to determine the type of instance and inheritance?<br>
+Ans:Using isinstance() function, we can test whether an object/variable is an instance of the specified type or class such as int or list. In the case of inheritance, we can checks if the specified class is the parent class of an object.<br>
+Example:Using isintance() we can verify whether a variable is a number or string. Let’s assume variable num = 90, and you want to check whether num is an instance of an int type.
+```
+num = 90
+result = isinstance(num, int)
+if result:
+    print("Yes")
+else:
+    print("No")
+```
+Output: Yes
 
 Q34.Explain the use of the 'nonlocal' keyword in Python.<br>
 The nonlocal keyword is used to work with variables inside nested functions, where the variable should not belong to the inner function. Use the keyword nonlocal to declare that the variable is not local.
