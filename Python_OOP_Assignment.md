@@ -37,6 +37,27 @@ Q13. What does the term "self" in a Python class mean?<br>
 Ans: The self is used to represent the instance of the class. With this keyword, we can access the attributes and methods of the class in python. It binds the attributes with the given arguments. The reason why we use self is that Python does not use the ‘@’ syntax to refer to instance attributes. In Python, we have methods that make the instance to be passed automatically, but not received automatically.
 
 Q14. How does a Python class handle operator overloading?<br>
+Ans: Python operators work for built-in classes. But the same operator behaves differently with different types. For example, the + operator will perform arithmetic addition on two numbers, merge two lists, or concatenate two strings.
+
+This feature in Python that allows the same operator to have different meaning according to the context is called operator overloading.
+
+Let us consider the following class, which tries to simulate a point in 2-D coordinate system.
+```
+class Point:
+    def __init__(self, x=0, y=0):
+        self.x = x
+        self.y = y
+
+p1 = Point(1, 2)
+p2 = Point(2, 3)
+print(p1+p2)
+```
+Output:<br>
+Traceback (most recent call last):<br>
+  File "<string>", line 9, in <module> <br>
+    print(p1+p2)<br>
+TypeError: unsupported operand type(s) for +: 'Point' and 'Point'<br>
+Here, we can see that a TypeError was raised, since Python didn't know how to add two Point objects together.
 
 Q15. When do you consider allowing operator overloading of your classes?<br>
 
