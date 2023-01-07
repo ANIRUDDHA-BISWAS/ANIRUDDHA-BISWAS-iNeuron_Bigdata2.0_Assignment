@@ -7,6 +7,8 @@ df = pd.read_csv(r'Path where the CSV file is stored\File name.csv')
 print(df)
 
 Q2. How do you check the data type of a column in a Pandas DataFrame?
+ 
+df.dtypes
 
 Q3. How do you select rows from a Pandas DataFrame based on a condition?
 
