@@ -2,8 +2,8 @@
 
 Q1. How do you load a CSV file into a Pandas DataFrame?
 
-import pandas as pd
-df = pd.read_csv(r'Path where the CSV file is stored\File name.csv')
+import pandas as pd  
+df = pd.read_csv(r'Path where the CSV file is stored\File name.csv')  
 print(df)
 
 Q2. How do you check the data type of a column in a Pandas DataFrame?
