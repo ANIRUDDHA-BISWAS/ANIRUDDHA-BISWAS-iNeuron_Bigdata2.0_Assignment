@@ -1,10 +1,10 @@
-date,city,temperature,humidity
-5/1/2017,new york,65,56
-5/2/2017,new york,66,58
-5/3/2017,new york,68,60
-5/1/2017,mumbai,75,80
-5/2/2017,mumbai,78,83
-5/3/2017,mumbai,82,85
-5/1/2017,beijing,80,26
-5/2/2017,beijing,77,30
-5/3/2017,beijing,79,35
+Date,City,Temperature,Humidity
+5/1/2020,New york,65,56
+5/2/2020,New york,66,58
+5/3/2020,New york,68,60
+5/1/2020,Mumbai,75,80
+5/2/2020,Mumbai,78,83
+5/3/2020,Mumbai,82,85
+5/1/2020,Beijing,80,26
+5/2/2020,Beijing,77,30
+5/3/2020,Beijing,79,35
